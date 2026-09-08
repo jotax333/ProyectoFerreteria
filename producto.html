@@ -9,23 +9,35 @@
 </head>
 
 <body>
+    <header>
+        <nav>
+            <ul id="lista">
+                <li>Inicio </li>
+                <li>Quienes Somos</li>
+                <li>Registro y catalogo</li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <section>
-            <label> Introduzca sus datos </label>
-            <form class="forma">
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre">
-                <label for="Apellido">Apellido</label>
-                <input type="text" id="Apellido" name="Apellido">
-                <label for="numero">numero</label>
-                <input type="number" id="numero" name="numero">
-                <label for="correo">correo</label>
-                <input type="email" id="correo" name="correo">
-            </form>
+            <h2>CATEGORIAS</h2>
+            <ul id="lista2">
+                <li><a href="#cont1">Materia de construccion</a></li>
+                <li><a href="#cont2">Pinturas</a></li>
+                <li><a href="#cont3">Herramientas</a></li>
+                <li> <a href="#cont4">Gasfiteria</a></li>
+                <li><a href="#cont5">Electricidad </a></li>
+                <li> <a href="#cont6">tornilleria</a></li>
+                <li><a href="#cont7">Madera</a></li>
+                <li><a href="#cont8">seguridad</a></li>
+                <li><a href="#cont9">Jardin</a></li>
+            </ul>
+            
+
         </section>
         <h2> Materiales de construcción </h2>
-        <section class="contenedor1">
-            <section class="cementos">
+        <section class="contenedor1" id="cont1">
+            <section class="cementos" >
                 <h3> Cementos </h3>
                 <section>
                     <article id=cemento1 name="cemento1">
@@ -43,13 +55,13 @@
                         <p> precio: 7490 </p>
                         <p> Stock </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad2" name="cantidad2">
+                        <button type="submit" name="boton2"> reservar </button>
                     </article>
                 </section>
             </section>
 
-            <section class="mortero">
+            <section class="mortero" >
                 <h3>Morteros </h3>
                 <section class="segunda">
                     <article id="mortero1" name="mortero1">
@@ -58,8 +70,8 @@
                         <p> precio: 5200 </p>
                         <p> Stock </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad3" name="cantidad3">
+                        <button type="submit" name="boton3"> reservar </button>
                     </article>
                     <article id=mortero2 name="mortero2">
                         <P> Mortero nivelador piso 25 kg</P>
@@ -67,12 +79,12 @@
                         <p> precio: 6490 </p>
                         <p> Stock: 30 </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad4" name="cantidad4">
+                        <button type="submit" name="boton4"> reservar </button>
                     </article>
                 </section>
             </section>
-            <section class="Aridos">
+            <section class="Aridos" id="aridos">
                 <h3>Aridos </h3>
                 <section id="tercera">
                     <article id="Arido" name="arido">
@@ -81,8 +93,8 @@
                         <p> precio: 1800 </p>
                         <p> Stock: 60 </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad6" name="cantidad6">
+                        <button type="submit" name="boton6"> reservar </button>
                     </article>
                     <article id=arido2 name="arido2">
                         <P> Ripio 25 kg</P>
@@ -90,12 +102,12 @@
                         <p> precio: 1500 </p>
                         <p> Stock: 60 </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad7" name="cantidad7">
+                        <button type="submit" name="boton7"> reservar </button>
                     </article>
                 </section>
             </section>
-            <section class="ladrillos">
+            <section class="ladrillos" id="ladrillos">
                 <h3>Ladrillos</h3>
 
                 <section>
@@ -105,8 +117,8 @@
                         <p> precio: $380 </p>
                         <p> Stock: 500 </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad8" name="cantidad8">
+                        <button type="submit" name="boton8"> reservar </button>
                     </article>
                     <article>
                         <P> Ladrillo prensado 6x14x29 cm</P>
@@ -114,13 +126,13 @@
                         <p> precio: 550 </p>
                         <p> Stock: 300 </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad9" name="cantidad9">
+                        <button type="submit" name="boton9"> reservar </button>
                     </article>
                     </article>
                 </section>
             </section>
-            <section class="bloques">
+            <section class="bloques" id = "bloques">
                 <h3> BLoques </h3>
                 <section>
                     <article>
@@ -129,8 +141,8 @@
                         <p> precio: $1200 </p>
                         <p> Stock: 200 </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad10" name="cantidad10">
+                        <button type="submit" name="boton10"> reservar </button>
                     </article>
                     <article>
                         <P> Bloque liviano 10x20x40 cm</P>
@@ -138,16 +150,16 @@
                         <p> precio: $1690 </p>
                         <p> Stock: 100 </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad11" name="cantidad11">
+                        <button type="submit" name="boton11"> reservar </button>
                     </article>
 
                 </section>
             </section>
         </section>
         <h2>Pinturas </h2>
-        <section class="contenedor2">
-            <section class="Latex">
+        <section class="contenedor2" id="cont2">
+            <section class="Latex" >
                 <h3>Latex</h3>
                 <section>
                     <article>
@@ -156,8 +168,8 @@
                         <p> precio: 9990 </p>
                         <p> Stock: 400 </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad12" name="cantidad12">
+                        <button type="submit" name="boton12"> reservar </button>
                     </article>
                     <article>
                         <P> Pintura látex interior 4 litros (varios col.)</P>
@@ -165,8 +177,8 @@
                         <p> precio: $9990 </p>
                         <p> Stock: 40 </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad13" name="cantidad13">
+                        <button type="submit" name="boton13"> reservar </button>
                     </article>
                     <article>
                         <P> </P>
@@ -174,13 +186,13 @@
                         <p> precio: 13990 </p>
                         <p> Stock: 25 </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad14" name="cantidad14">
+                        <button type="submit" name="boton14"> reservar </button>
                     </article>
                 </section>
 
             </section>
-            <section class="esmalte">
+            <section class="esmalte" >
                 <h3>Esmalte</h3>
                 <section>
                     <article>
@@ -189,8 +201,8 @@
                         <p> precio: $4290 </p>
                         <p> Stock:50 </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad15" name="cantidad15">
+                        <button type="submit" name="boton15"> reservar </button>
                     </article>
                     <article>
                         <P>Esmalte sintético 1 litro (varios col.)</P>
@@ -198,22 +210,22 @@
                         <p> precio: $9490 </p>
                         <p> Stock: 30 </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad16" name="cantidad16">
+                        <button type="submit" name="boton16"> reservar </button>
                     </article>
                 </section>
             </section>
             <section>
                 <h3>Antihumedad</h3>
-                <section class="antihumedad">
+                <section class="antihumedad" >
                     <article>
                         <P> Pintura antihumedad 1 galón blanco</P>
                         <p> Marca: komex </p>
                         <p> precio: $17990 </p>
                         <p> Stock: 15 </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad17" name="cantidad17">
+                        <button type="submit" name="boton17"> reservar </button>
                     </article>
                 </section>
 
@@ -227,8 +239,8 @@
                         <p> precio: $3990 </p>
                         <p> Stock: 30 </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad18" name="cantidad18">
+                        <button type="submit" name="boton18"> reservar </button>
                     </article>
                     <article>
                         <P> Brocha cerda natural 3"</P>
@@ -236,8 +248,8 @@
                         <p> precio: $1690 </p>
                         <p> Stock: 40 </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad19" name="cantidad19">
+                        <button type="submit" name="boton19"> reservar </button>
                     </article>
                     <article>
                         <P> Cinta de enmascarar 24mm x 50m</P>
@@ -245,15 +257,15 @@
                         <p> precio: $2490 </p>
                         <p> Stock: 60</p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad20" name="cantidad20">
+                        <button type="submit" name="boton20"> reservar </button>
                     </article>
 
                 </section>
             </section>
         </section>
         <h2>Herramientas</h2>
-        <section class=contenedor3>
+        <section class=contenedor3 id="cont3">
             <section class="Manuales">
                 <h3> Manuales </h3>
                 <article>
@@ -262,8 +274,8 @@
                     <p> precio: </p>
                     <p> Stock: </p>
                     <p>cantidad</p>
-                    <input type="number" id="cantidad" name="cantidad">
-                    <button type="submit" name="boton1"> reservar </button>
+                    <input type="number" id="cantidad21" name="cantidad21">
+                    <button type="submit" name="boton21"> reservar </button>
                 </article>
                 <article>
                     <P> ALicate universal 8"</P>
@@ -271,8 +283,8 @@
                     <p> precio: </p>
                     <p> Stock: </p>
                     <p>cantidad</p>
-                    <input type="number" id="cantidad" name="cantidad">
-                    <button type="submit" name="boton1"> reservar </button>
+                    <input type="number" id="cantidad22" name="cantidad22">
+                    <button type="submit" name="boton22"> reservar </button>
                 </article>
                 <article>
                     <P> Destornillador plano 6x100mm</P>
@@ -280,8 +292,8 @@
                     <p> precio: </p>
                     <p> Stock: </p>
                     <p>cantidad</p>
-                    <input type="number" id="cantidad" name="cantidad">
-                    <button type="submit" name="boton1"> reservar </button>
+                    <input type="number" id="cantidad23" name="cantidad23">
+                    <button type="submit" name="boton23"> reservar </button>
                 </article>
                 <article>
                     <P> Llave ajustable 10"</P>
@@ -289,8 +301,8 @@
                     <p> precio: </p>
                     <p> Stock: </p>
                     <p>cantidad</p>
-                    <input type="number" id="cantidad" name="cantidad">
-                    <button type="submit" name="boton1"> reservar </button>
+                    <input type="number" id="cantidad24" name="cantidad24">
+                    <button type="submit" name="boton24"> reservar </button>
                 </article>
                 <article>
                     <P>Juego llaves hexagonales metrico x9 </P>
@@ -298,8 +310,8 @@
                     <p> precio: </p>
                     <p> Stock: </p>
                     <p>cantidad</p>
-                    <input type="number" id="cantidad" name="cantidad">
-                    <button type="submit" name="boton1"> reservar </button>
+                    <input type="number" id="cantidad25" name="cantidad25">
+                    <button type="submit" name="boton25"> reservar </button>
                 </article>
                 <article>
                     <P> Serrucho 20" 7 dientes por pulgadas</P>
@@ -307,8 +319,8 @@
                     <p> precio: </p>
                     <p> Stock: </p>
                     <p>cantidad</p>
-                    <input type="number" id="cantidad" name="cantidad">
-                    <button type="submit" name="boton1"> reservar </button>
+                    <input type="number" id="cantidad26" name="cantidad26">
+                    <button type="submit" name="boton26"> reservar </button>
                 </article>
                 <article>
                     <P>NIvel de burbuja 60 cm </P>
@@ -316,8 +328,8 @@
                     <p> precio: </p>
                     <p> Stock: </p>
                     <p>cantidad</p>
-                    <input type="number" id="cantidad" name="cantidad">
-                    <button type="submit" name="boton1"> reservar </button>
+                    <input type="number" id="cantidad27" name="cantidad27">
+                    <button type="submit" name="boton27"> reservar </button>
                 </article>
                 <article>
                     <P> Metro de tela 5M</P>
@@ -325,8 +337,8 @@
                     <p> precio: </p>
                     <p> Stock: </p>
                     <p>cantidad</p>
-                    <input type="number" id="cantidad" name="cantidad">
-                    <button type="submit" name="boton1"> reservar </button>
+                    <input type="number" id="cantidad28" name="cantidad28">
+                    <button type="submit" name="boton28"> reservar </button>
                 </article>
                 <article>
                     <P> Cinta metricaa 8mautoblocante</P>
@@ -334,11 +346,11 @@
                     <p> precio: </p>
                     <p> Stock: </p>
                     <p>cantidad</p>
-                    <input type="number" id="cantidad" name="cantidad">
-                    <button type="submit" name="boton1"> reservar </button>
+                    <input type="number" id="cantidad29" name="cantidad29">
+                    <button type="submit" name="boton29"> reservar </button>
                 </article>
             </section>
-            <section class="electricas">
+            <section class="electricas" >
                 <h3>Electricas</h3>
                 <section>
                     <article>
@@ -347,8 +359,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad30" name="cantidad30">
+                        <button type="submit" name="boton30"> reservar </button>
                     </article>
                     <article>
                         <P> Atornillador inalambrico 12v (kit)</P>
@@ -356,8 +368,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad31" name="cantidad31">
+                        <button type="submit" name="boton31"> reservar </button>
                     </article>
                     <article>
                         <P> amoladora angulas 4.5" 800w </P>
@@ -365,8 +377,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad32" name="cantidad32">
+                        <button type="submit" name="boton32"> reservar </button>
                     </article>
                     <article>
                         <P>sierra circular 7-1/4" 1200W </P>
@@ -374,8 +386,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad33" name="cantidad33">
+                        <button type="submit" name="boton33"> reservar </button>
                     </article>
                     <article>
                         <P> Lijadora orbtal 180W</P>
@@ -383,8 +395,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad44" name="cantidad44">
+                        <button type="submit" name="boton44"> reservar </button>
                     </article>
                     <article>
                         <P> caladora 500W</P>
@@ -392,15 +404,15 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad45" name="cantidad45">
+                        <button type="submit" name="boton45"> reservar </button>
                     </article>
 
                 </section>
             </section>
         </section>
         <h2>Gasfiteria</h2>
-        <section class="contenedor4">
+        <section class="contenedor4" id="cont4">
             <section class="tuberias">
                 <h3>Gasfiteria</h3>
                 <section>
@@ -410,8 +422,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad46" name="cantidad46">
+                        <button type="submit" name="boton46"> reservar </button>
                     </article>
                     <article>
                         <P> cañeria PVC 3/4" X 6M</P>
@@ -419,8 +431,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad47" name="cantidad47">
+                        <button type="submit" name="boton47"> reservar </button>
                     </article>
                     <article>
                         <P> Cañeria CObre 1/2" x 5 m </P>
@@ -428,8 +440,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad48" name="cantidad48">
+                        <button type="submit" name="boton48"> reservar </button>
                     </article>
                 </section>
             </section>
@@ -442,8 +454,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad49" name="cantidad49">
+                        <button type="submit" name="boton49"> reservar </button>
                     </article>
                     <article>
                         <P> Te pvc 1/2" </P>
@@ -451,8 +463,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad50" name="cantidad50">
+                        <button type="submit" name="boton50"> reservar </button>
                     </article>
                     <article>
                         <P> Union DOble PVC 1/2"</P>
@@ -460,8 +472,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad51" name="cantidad51">
+                        <button type="submit" name="boton51"> reservar </button>
                     </article>
                 </section>
 
@@ -475,8 +487,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad52" name="cantidad52">
+                        <button type="submit" name="boton52"> reservar </button>
                     </article>
                     <article>
                         <P> llave de paso esfera 3/4" laton</P>
@@ -484,8 +496,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad53" name="cantidad53">
+                        <button type="submit" name="boton53"> reservar </button>
                     </article>
                 </section>
 
@@ -499,8 +511,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantida54" name="cantidad54">
+                        <button type="submit" name="boton54"> reservar </button>
                     </article>
                     <article>
                         <P>griferia cocina monocomando cuello alto </P>
@@ -508,8 +520,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad55" name="cantidad55">
+                        <button type="submit" name="boton55"> reservar </button>
                     </article>
                 </section>
 
@@ -523,8 +535,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad56" name="cantidad56">
+                        <button type="submit" name="boton56"> reservar </button>
                     </article>
                     <article>
                         <P> Silicona transparente 280 ml </P>
@@ -532,16 +544,16 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad57" name="cantidad57">
+                        <button type="submit" name="boton57"> reservar </button>
                     </article>
                 </section>
             </section>
 
         </section>
-        <section class="contenedor5">
+        <section class="contenedor5" id="cont5">
             <h2>Electricidad</h2>
-            <section class="conductores">
+            <section class="conductores" id="Electricidad">
                 <h3>conductores</h3>
                 <section>
                     <article>
@@ -550,8 +562,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad58" name="cantidad58">
+                        <button type="submit" name="boton58"> reservar </button>
                     </article>
                     <article>
                         <P> Cable unipolar 2.5mm² (por metro)</P>
@@ -559,8 +571,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad59" name="cantidad59">
+                        <button type="submit" name="boton59"> reservar </button>
                     </article>
                     <article>
                         <P> Cable dúplex paralelo 2x1.5mm² (por metro)</P>
@@ -568,8 +580,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad60" name="cantidad60">
+                        <button type="submit" name="boton60"> reservar </button>
                     </article>
                 </section>
 
@@ -583,8 +595,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad61" name="cantidad61">
+                        <button type="submit" name="boton61"> reservar </button>
                     </article>
                     <article>
                         <P> Enchufe doble empotrar 16A c/tierra</P>
@@ -592,8 +604,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad62" name="cantidad62">
+                        <button type="submit" name="boton62"> reservar </button>
                     </article>
                 </section>
 
@@ -607,8 +619,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad63" name="cantidad63">
+                        <button type="submit" name="boton63"> reservar </button>
                     </article>
                     <article>
                         <P>Interruptor doble empotrar </P>
@@ -616,13 +628,13 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad64" name="cantidad64">
+                        <button type="submit" name="boton64"> reservar </button>
                     </article>
                 </section>
 
             </section>
-            <section class="tableros ">
+            <section class="tableros">
                 <h3>tableros</h3>
                 <section>
                     <article>
@@ -631,8 +643,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad65" name="cantidad65">
+                        <button type="submit" name="boton65"> reservar </button>
                     </article>
                     <article>
                         <P>Disyuntor termomagnético 16A unipolar</P>
@@ -640,8 +652,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad66" name="cantidad66">
+                        <button type="submit" name="boton66"> reservar </button>
                     </article>
                     <article>
                         <P> Disyuntor termomagnético 25A unipolar</P>
@@ -649,8 +661,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad67" name="cantidad67">
+                        <button type="submit" name="boton67"> reservar </button>
                     </article>
                 </section>
             </section>
@@ -663,8 +675,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad68" name="cantidad68">
+                        <button type="submit" name="boton68"> reservar </button>
                     </article>
                     <article>
                         <P> Ampolleta LED 12W E27 luz cálida </P>
@@ -672,8 +684,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad69" name="cantidad69">
+                        <button type="submit" name="boton69"> reservar </button>
                     </article>
                     <article>
                         <P> Panel LED empotrar 18W 22cm </P>
@@ -681,14 +693,14 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad70" name="cantidad70">
+                        <button type="submit" name="boton70"> reservar </button>
                     </article>
                 </section>
 
             </section>
         </section>
-        <section class="contenedor6">
+        <section class="contenedor6" id="cont6">
             <h2>tornilleria</h2>
             <section class="tornillos">
                 <h3>tornillos</h3>
@@ -699,8 +711,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad71" name="cantidad71">
+                        <button type="submit" name="boton71"> reservar </button>
                     </article>
                     <article>
                         <P> Tornillo madera 4x40mm caja 100 unid. </P>
@@ -708,8 +720,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad72" name="cantidad72">
+                        <button type="submit" name="boton72"> reservar </button>
                     </article>
                     <article>
                         <P>Tornillo volcanita 3.5x25mm caja 200 unid. </P>
@@ -717,8 +729,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad73" name="cantidad73">
+                        <button type="submit" name="boton173"> reservar </button>
                     </article>
                 </section>
 
@@ -732,8 +744,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad74" name="cantidad74">
+                        <button type="submit" name="boton74"> reservar </button>
                     </article>
                     <article>
                         <P> Taco fisher S8 bolsa 50 unid.</P>
@@ -741,8 +753,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad75" name="cantidad75">
+                        <button type="submit" name="boton75"> reservar </button>
                     </article>
 
                 </section>
@@ -757,8 +769,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad76" name="cantidad76">
+                        <button type="submit" name="boton76"> reservar </button>
                     </article>
                 </section>
 
@@ -772,8 +784,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad77" name="cantidad77">
+                        <button type="submit" name="boton77"> reservar </button>
                     </article>
                     <article>
                         <P> Anclaje químico epoxi 300ml </P>
@@ -781,8 +793,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad78" name="cantidad78">
+                        <button type="submit" name="boton78"> reservar </button>
                     </article>
                 </section>
 
@@ -790,7 +802,7 @@
 
 
         </section>
-        <section class="contenedor7">
+        <section class="contenedor7" id="cont7">
             <h2>Madera</h2>
             <section class="pino">
                 <h3>pino cepillado</h3>
@@ -801,8 +813,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad79" name="cantidad79">
+                        <button type="submit" name="boton79"> reservar </button>
                     </article>
                     <article>
                         <P> Pino cepillado 2x4" x 3m </P>
@@ -810,8 +822,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad80" name="cantidad80">
+                        <button type="submit" name="boton80"> reservar </button>
                     </article>
 
                 </section>
@@ -827,8 +839,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad81" name="cantidad81">
+                        <button type="submit" name="boton81"> reservar </button>
                     </article>
                     <article>
                         <P> MDF 15mm 1.22x2.44m </P>
@@ -836,8 +848,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad82" name="cantidad82">
+                        <button type="submit" name="boton82"> reservar </button>
                     </article>
                     <article>
                         <P> OSB 9mm 1.22x2.44m</P>
@@ -845,8 +857,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad83" name="cantidad83">
+                        <button type="submit" name="boton83"> reservar </button>
                     </article>
                     <article>
                         <P> Volcanita estándar 10mm 1.2x2.4m </P>
@@ -854,8 +866,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad84" name="cantidad84">
+                        <button type="submit" name="boton84"> reservar </button>
                     </article>
                     <article>
                         <P> Volcanita resistente humedad 10mm</P>
@@ -863,15 +875,15 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad85" name="cantidad85">
+                        <button type="submit" name="boton85"> reservar </button>
                     </article>
                 </section>
 
             </section>
 
         </section>
-        <section class="contenedor8">
+        <section class="contenedor8" id="cont8">
             <h2>Seguridad</h2>
             <section class="EPP">
                 <h3>EPP</h3>
@@ -882,8 +894,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad86" name="cantidad86">
+                        <button type="submit" name="boton86"> reservar </button>
                     </article>
                     <article>
                         <P>Guantes de cuero talla L </P>
@@ -891,8 +903,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad87" name="cantidad87">
+                        <button type="submit" name="boton87"> reservar </button>
                     </article>
                     <article>
                         <P> Antiparras de seguridad clear</P>
@@ -900,8 +912,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad88" name="cantidad88">
+                        <button type="submit" name="boton88"> reservar </button>
                     </article>
                     <article>
                         <P> Mascarilla respirador N95 (caja x10)</P>
@@ -909,8 +921,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad89" name="cantidad89">
+                        <button type="submit" name="boton89"> reservar </button>
                     </article>
                     <article>
                         <P> Arnés de seguridad 1 punto</P>
@@ -918,8 +930,8 @@
                         <p> precio: </p>
                         <p> Stock: </p>
                         <p>cantidad</p>
-                        <input type="number" id="cantidad" name="cantidad">
-                        <button type="submit" name="boton1"> reservar </button>
+                        <input type="number" id="cantidad90" name="cantidad90">
+                        <button type="submit" name="boton90"> reservar </button>
                     </article>
 
 
@@ -931,7 +943,7 @@
             </section>
 
         </section>
-        <section class = contenedor8 >
+        <section class = contenedor9 id="cont9" >
             <h2>Jardin</h2>
             <section class = "mangueras">
                 <h3>manguera</h3>
@@ -942,8 +954,8 @@
                             <p> precio: </p>
                             <p> Stock: </p>
                             <p>cantidad</p>
-                            <input type="number" id="cantidad" name="cantidad">
-                            <button type="submit" name="boton1"> reservar </button>
+                            <input type="number" id="cantidad91" name="cantidad91">
+                            <button type="submit" name="boton91"> reservar </button>
                         </article>
                                                   <article>
                             <P> Manguera expandible 30m</P>
@@ -951,8 +963,8 @@
                             <p> precio: </p>
                             <p> Stock: </p>
                             <p>cantidad</p>
-                            <input type="number" id="cantidad" name="cantidad">
-                            <button type="submit" name="boton1"> reservar </button>
+                            <input type="number" id="cantidad92" name="cantidad92">
+                            <button type="submit" name="boton92"> reservar </button>
                         </article>
                                                   <article>
                             <P>Pistola de riego 8 modos </P>
@@ -960,8 +972,8 @@
                             <p> precio: </p>
                             <p> Stock: </p>
                             <p>cantidad</p>
-                            <input type="number" id="cantidad" name="cantidad">
-                            <button type="submit" name="boton1"> reservar </button>
+                            <input type="number" id="cantidad93" name="cantidad93">
+                            <button type="submit" name="boton93"> reservar </button>
                         </article>
                         
                         
@@ -978,8 +990,8 @@
                             <p> precio: </p>
                             <p> Stock: </p>
                             <p>cantidad</p>
-                            <input type="number" id="cantidad" name="cantidad">
-                            <button type="submit" name="boton1"> reservar </button>
+                            <input type="number" id="cantidad94" name="cantidad94">
+                            <button type="submit" name="boton94"> reservar </button>
                         </article>
                                                   <article>
                             <P> Rastrillo 16 dientes con mango </P>
@@ -987,8 +999,8 @@
                             <p> precio: </p>
                             <p> Stock: </p>
                             <p>cantidad</p>
-                            <input type="number" id="cantidad" name="cantidad">
-                            <button type="submit" name="boton1"> reservar </button>
+                            <input type="number" id="cantidad95" name="cantidad95">
+                            <button type="submit" name="boton95"> reservar </button>
                         </article>
                         
                         
@@ -997,4 +1009,7 @@
         </section>
 
     </main>
+    <footer>
+        <p>Derechos reservados 2026</p>
+    </footer>
 </body>
