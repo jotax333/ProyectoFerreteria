@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: rgb(255, 0, 0 , 0.8
+    );
+}
+
+.campo-error {
+  border: 2px solid #a3242f;
+  background: #fbe9ea;
+}
+
+.forma {
+    display: flex;
+    flex-direction: column;
+    border-style: dotted;
+    max-width: 400px;
+
+}
+.contenedor1,.contenedor2,.contenedor3,.contenedor4,.contenedor5,
+.contenedor6,.contenedor7,.contenedor8
+{
+    display: block;
+    gap:15px;
+    max-width: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.cementos , .mortero, .Aridos, .ladrillos, .bloques,.Latex,
+.esmalte,.antihumedad,.Accesorios,.Manuales,.electricas,.uniones,.tuberias
+,.uniones,.llaves,.griferia,.sellos,.conductores,.enchufes,.interruptores,.tableros,.iluminacion
+,.tornillos,.tacos,.pernos,.anclajes,.pino,.tableros,.EPP
+,.mangueras,.herramientas{
+    border-style: dotted;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+h2{
+    width: 100%;
+    display: block;
+}
