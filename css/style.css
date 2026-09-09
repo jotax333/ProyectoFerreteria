@@ -5,6 +5,13 @@
 }
 body{
     background-color: beige;
+    background-image:linear-gradient(rgba(185, 174, 174, 0.856), rgba(0,0,0,0.5)), url("../img/Ferreteri.jpg");
+    background-size: cover;       
+    background-position: center;   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .campo-error {
